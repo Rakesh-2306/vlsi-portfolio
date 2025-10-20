@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rakesh K M — VLSI Portfolio</title>
+  <meta name="description" content="VLSI Design portfolio of Rakesh K M — RTL, PD, Verification, and ASIC Design." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root {
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --ink:#1e1e1e;
+      --muted:#5a5a5a;
+      --line:#d0d7de;
+      --brand:#005fbf;
+      --chip:#edf2f7;
+    }
+    *{box-sizing:border-box;}
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--ink);
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;
+    }
+    a{color:var(--brand);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .wrap{max-width:1080px;margin:0 auto;padding:24px;}
+    header{
+      position:sticky;top:0;background:#ffffffcc;
+      backdrop-filter:saturate(150%) blur(6px);
+      border-bottom:1px solid var(--line);
+      z-index:10;
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
+    .nav h1{font-size:20px;margin:0;font-weight:700;letter-spacing:.02em;color:var(--brand);}
+    .nav .links a{
+      margin-left:10px;
+      display:inline-flex;align-items:center;gap:8px;
+      padding:8px 12px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#f2f4f8;
+      font-weight:500;
+    }
+    .hero{display:grid;grid-template-columns:1fr .6fr;gap:18px;padding:36px 0;}
+    .badge{display:inline-block;font-weight:600;color:var(--brand);background:#e7f1ff;border-radius:999px;padding:6px 12px;}
+    .title{font-size:32px;line-height:1.2;margin:10px 0 0 0;}
+    .subtitle{color:var(--muted);}
+    section{padding:36px 0;border-top:1px solid var(--line);}
+    h2{font-size:22px;margin:0 0 16px 0;color:var(--brand);}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;box-shadow:0 2px 6px rgba(0,0,0,0.05);}
+    .grid{display:grid;gap:16px;}
+    .grid-2{grid-template-columns:1fr 1fr;}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
+    .kvs{display:flex;flex-wrap:wrap;gap:8px;}
+    .chip{background:var(--chip);border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:13px;}
+    ul{margin:8px 0 0 20px;}
+    .muted{color:var(--muted);}
+    footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);text-align:center;background:#f5f7fa;}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Courier New",monospace;}
+    .row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+    .row .right{color:var(--muted);font-size:14px;}
+    .pub a{word-break:break-all;}
+    .avatar{width:110px;height:110px;border-radius:50%;object-fit:cover;border:2px solid var(--brand);margin-bottom:10px;}
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="wrap nav">
+      <h1 class="mono">[RK] Rakesh K M</h1>
+      <div class="links">
+        <a href="https://github.com/Rakesh-2306" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/kmrakesh" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="assets/Rakesh_VLSI_Resume.pdf" download rel="noopener">Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <span class="badge">VLSI Design • RTL • PD • Verification</span>
+        <h2 class="title">M.Tech — VLSI Design <span class="muted">|</span> B.E — ECE</h2>
+        <p class="subtitle">
+          Dedicated learner in Electronics & Communication. Passionate about hardware design, performance verification,
+          and low-power architecture. Skilled in collaboration, leadership, and translating complex requirements into solutions.
+        </p>
+      </div>
+      <div class="card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;">
+        <img class="avatar" src="images/rakesh.jpg" alt="Rakesh K M" onerror="this.style.display='none'">
+        <div class="muted">Contact</div>
+        <div class="mono">kmrakesh23@gmail.com</div>
+        <div class="mono">+91 9025253871</div>
+        <div class="mono">Chennai, India</div>
+      </div>
+    </section>
+
+    <!-- Career Objective -->
+    <section>
+      <h2>Career Objective</h2>
+      <div class="card">
+        A dedicated learner and aspiring professional in Electronics and Communication Engineering, currently pursuing a Master’s in VLSI Design.
+        Passionate about acquiring comprehensive knowledge and excelling as a versatile engineer across hardware design, performance verification,
+        and problem-solving. Skilled in collaboration, leadership, and translating complex requirements into effective solutions.
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <strong>Vellore Institute of Technology, Chennai</strong>
+          <div class="muted">M.Tech in VLSI Design (2024 – Present)</div>
+        </div>
+        <div class="card">
+          <strong>Sri Sairam Engineering College, Chennai</strong>
+          <div class="muted">B.E. in Electronics and Communication Engineering (2019 – 2023)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <strong>HDLs</strong>
+          <div class="kvs">
+            <span class="chip">Verilog</span><span class="chip">SystemVerilog</span><span class="chip">TCL</span>
+          </div>
+        </div>
+        <div class="card">
+          <strong>Programming</strong>
+          <div class="kvs">
+            <span class="chip">Perl</span><span class="chip">Python</span><span class="chip">C</span>
+            <span class="chip">Java</span><span class="chip">MySQL</span><span class="chip">Scripting</span>
+          </div>
+        </div>
+        <div class="card">
+          <strong>Tools</strong>
+          <div class="kvs">
+            <span class="chip">Cadence Virtuoso</span><span class="chip">Innovus</span><span class="chip">Intel Quartus</span>
+            <span class="chip">Mentor Graphics</span><span class="chip">ModelSim</span><span class="chip">Synopsys</span>
+            <span class="chip">Ubuntu</span><span class="chip">PSpice</span><span class="chip">MATLAB</span>
+          </div>
+        </div>
+        <div class="card">
+          <strong>Others</strong>
+          <div class="kvs">
+            <span class="chip">Object Oriented Programming</span><span class="chip">DRC/LVS</span>
+            <span class="chip">System-level Testing</span><span class="chip">Debugging</span><span class="chip">Automation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="row">
+            <strong>Associate IT Consultant — ITC Infotech</strong>
+            <span class="right">Jul 2023 – Jul 2024 • Bangalore, India</span>
+          </div>
+          <ul>
+            <li>Server Administration, Microsoft Azure, Databases, Power BI, MATLAB Server, ServiceNow.</li>
+            <li>Automation and scripting for data analysis and system administration.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="row">
+            <strong>Cyber Security Intern — Cisco Networking Academy</strong>
+            <span class="right">Apr 2021 – Jul 2021 • Remote</span>
+          </div>
+          <ul>
+            <li>Experience in cybersecurity, IP networking, and network security protocols.</li>
+            <li>Configured network topologies and verified secure connections using Cisco tools.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <strong>Implementation of Ultra-Lightweight RISC-V Architecture for Anomaly Detection in Healthcare Applications</strong>
+          <p class="muted">
+            Developing a Day–Night RISC-V processor in an ASIC flow with an always-on low-power core.
+            Synopsys toolchain: VCS for functional verification, Design Compiler for timing/power analysis,
+            ICC2 for PD; using SAED32HVT technology libraries at ff0p95v125c for low-power performance.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>Design and Analysis of Low Power Hybrid Full Adder for Array Multiplier — Mar 2025</strong>
+          <p class="muted">
+            Designed a hybrid full adder (FA)-based 4-bit and 8-bit array multiplier using 90nm CMOS technology with transmission gate and pass transistor logic for power and performance optimization. Performed DRC, LVS, and functional verification using Cadence Virtuoso, ensuring design integrity.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>Design and Analysis of 4-bit and 8-bit Kogge Stone Adder Using Memristor Technology — Nov 2024</strong>
+          <p class="muted">
+            Designed and simulated memristor-based Kogge-Stone adders for enhanced speed and power efficiency over traditional designs using Cadence Virtuoso.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>Automated Mishap Detection and Prevention System in Vehicles — Feb 2022</strong>
+          <p class="muted">
+            Developed an automated accident detection system with notification capabilities, demonstrating embedded system integration and real-time processing.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>Network Topology for College Network Using Cisco Packet Tracer — Jun 2021</strong>
+          <p class="muted">
+            Designed and implemented a functional college network topology including configuration and testing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section>
+      <h2>Publications</h2>
+      <div class="card pub">
+        <strong>Automated Mishap Detection and Prevention System for Vehicles</strong>
+        <div class="muted">Springer, ICICV 2023</div>
+        <a href="https://doi.org/10.1007/978-981-99-1767-9_4" target="_blank" rel="noopener">DOI: 10.1007/978-981-99-1767-9_4</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Rakesh K M — VLSI Design Portfolio</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
