@@ -32,7 +32,7 @@ header{position:sticky;top:0;background:#ffffffcc;border-bottom:1px solid var(--
 .subtitle{color:var(--muted);}
 section{padding:36px 0;border-top:1px solid var(--line);}
 h2{color:var(--brand);}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:16px;}
 .grid{display:grid;gap:16px;}
 .grid-2{grid-template-columns:1fr 1fr;}
 @media(max-width:900px){.hero{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
@@ -41,7 +41,7 @@ h2{color:var(--brand);}
   height:110px;
   border-radius:50%;
   object-fit:cover;
-  object-position:center top; /* Fix cropping */
+  object-position:center top;
   border:2px solid var(--brand);
   margin-bottom:10px;
 }
@@ -63,6 +63,7 @@ h2{color:var(--brand);}
 
 <main class="wrap">
 
+<!-- HERO -->
 <section class="hero">
 <div>
 <span class="badge">VLSI Design • RTL • PD • Verification</span>
@@ -83,60 +84,125 @@ Seeking opportunities in Physical Design, ASIC implementation, and Digital IC de
 </div>
 </section>
 
+<!-- EDUCATION -->
+<section>
+<h2>Education</h2>
+<div class="grid grid-2">
+<div class="card">
+<strong>Vellore Institute of Technology, Chennai</strong>
+<p>M.Tech in VLSI Design (2024 – Present)</p>
+</div>
+<div class="card">
+<strong>Sri Sairam Engineering College, Chennai</strong>
+<p>B.E. in Electronics and Communication Engineering (2019 – 2023)</p>
+</div>
+</div>
+</section>
+
+<!-- TECHNICAL SKILLS -->
+<section>
+<h2>Technical Skills</h2>
+<div class="card">
+<strong>HDLs:</strong> Verilog, SystemVerilog, TCL<br><br>
+<strong>Programming:</strong> Perl, Python, C, Java, MySQL, Scripting<br><br>
+<strong>Tools:</strong> Cadence Virtuoso, Innovus, Intel Quartus, Mentor Graphics, ModelSim, Synopsys, Ubuntu, PSpice, MATLAB<br><br>
+<strong>Others:</strong> Object Oriented Programming, DRC/LVS, System-level Testing, Debugging, Automation
+</div>
+</section>
+
+<!-- PROFESSIONAL EXPERIENCE -->
+<section>
+<h2>Professional Experience</h2>
+<div class="card">
+<strong>Associate IT Consultant — ITC Infotech</strong><br>
+Jul 2023 – Jul 2024 | Bangalore, India
+<ul>
+<li>Server Administration, Microsoft Azure, Databases, Power BI, MATLAB Server, ServiceNow.</li>
+<li>Automation and scripting for data analysis and system administration.</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Cyber Security Intern — Cisco Networking Academy</strong><br>
+Apr 2021 – Jul 2021 | Remote
+<ul>
+<li>Experience in cybersecurity, IP networking, and network security protocols.</li>
+<li>Configured network topologies and verified secure connections using Cisco tools.</li>
+</ul>
+</div>
+</section>
+
 <!-- PROJECTS -->
 <section>
 <h2>Projects</h2>
-<div class="grid grid-2">
 
-<!-- NEW LNA PROJECT -->
 <div class="card">
 <strong>Performance-Balanced Noise-Canceling Low Noise Amplifier — Dec 2025 – Present</strong>
 <p>
 Designing a noise-canceling CMOS LNA in SCL 180nm technology targeting ultra-wideband (3–10 GHz) performance.
-Achieved >19 dB forward gain (S21) across the target band while performing S-parameter analysis (S11, S22) and noise figure (NF) optimization in Cadence Virtuoso.
-Focused on bias stability, transistor sizing, and gain–bandwidth–power trade-offs for balanced RF front-end performance.
+Achieved >19 dB forward gain (S21) while optimizing S11, S22 and Noise Figure (NF) in Cadence Virtuoso.
+Focused on bias stability and gain–bandwidth–power trade-offs.
 </p>
 </div>
 
-<!-- UPDATED RISC-V -->
 <div class="card">
 <strong>Implementation of Ultra-Lightweight RISC-V Architecture for Anomaly Detection in Healthcare Applications — Nov 2025</strong>
 <p>
-Developing a Day–Night RISC-V processor in ASIC flow with always-on low-power core using Synopsys VCS, Design Compiler, and ICC2.
+Developing Day–Night RISC-V processor in ASIC flow using VCS, Design Compiler and ICC2.
 Technology: SAED32HVT @ ff0p95v125c.
 </p>
 </div>
 
 <div class="card">
 <strong>Design and Analysis of Low Power Hybrid Full Adder for Array Multiplier — Mar 2025</strong>
-<p>
-Designed hybrid FA-based 4-bit & 8-bit array multiplier using 90nm CMOS with transmission gate & pass transistor logic.
-Performed DRC, LVS and functional verification in Cadence Virtuoso.
-</p>
+<p>Hybrid FA-based 4-bit & 8-bit array multiplier using 90nm CMOS. Verified using DRC, LVS in Cadence Virtuoso.</p>
 </div>
 
 <div class="card">
 <strong>Design and Analysis of 4-bit and 8-bit Kogge Stone Adder Using Memristor Technology — Nov 2024</strong>
-<p>
-Designed and simulated memristor-based Kogge-Stone adders for improved speed and power efficiency using Cadence Virtuoso.
-</p>
+<p>Memristor-based Kogge-Stone adders simulated in Cadence Virtuoso for speed & power optimization.</p>
 </div>
 
 <div class="card">
 <strong>Automated Mishap Detection and Prevention System in Vehicles — Feb 2022</strong>
-<p>
-Developed automated accident detection system with notification capability demonstrating embedded system integration.
-</p>
+<p>Embedded accident detection system with real-time notification capability.</p>
 </div>
 
 <div class="card">
 <strong>Network Topology for College Network Using Cisco Packet Tracer — Jun 2021</strong>
-<p>
-Designed and implemented a functional college network topology including configuration and testing.
-</p>
+<p>Designed and implemented functional college network topology including configuration & testing.</p>
 </div>
 
+</section>
+
+<!-- PUBLICATIONS -->
+<section>
+<h2>Publications</h2>
+<div class="card">
+<strong>Automated Mishap Detection and Prevention System for Vehicles</strong><br>
+Springer, ICICV 2023<br>
+<a href="https://doi.org/10.1007/978-981-99-1767-9_4" target="_blank">DOI: 10.1007/978-981-99-1767-9_4</a>
 </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+<h2>Certifications</h2>
+
+<div class="card">
+<strong>System Design Through Verilog — NPTEL</strong><br>
+<a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/108/noc25-ee180/Course/NPTEL25EE180S63320362309227997.pdf" target="_blank">
+View Certificate
+</a>
+</div>
+
+<div class="card">
+<strong>VLSI Design Flow: RTL to GDS — NPTEL</strong><br>
+<a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/108/noc25-ee106/Course/NPTEL25EE106S55391255510588025.pdf" target="_blank">
+View Certificate
+</a>
+</div>
+
 </section>
 
 </main>
