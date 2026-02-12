@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Rakesh K M — VLSI Portfolio</title>
-<meta name="description" content="VLSI Design portfolio of Rakesh K M — RTL, PD, Verification, and ASIC Design." />
+<meta name="description" content="VLSI Design portfolio of Rakesh K M — RTL, PD, and ASIC Design." />
 <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
 
 <style>
@@ -15,27 +15,47 @@
   --muted:#5a5a5a;
   --line:#d0d7de;
   --brand:#005fbf;
-  --chip:#edf2f7;
 }
 *{box-sizing:border-box;}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui;}
+html,body{
+  margin:0;
+  padding:0;
+  background:var(--bg);
+  color:var(--ink);
+  font:16px/1.6 system-ui;
+}
 a{color:var(--brand);text-decoration:none;}
 a:hover{text-decoration:underline;}
 .wrap{max-width:1080px;margin:0 auto;padding:24px;}
 header{position:sticky;top:0;background:#ffffffcc;border-bottom:1px solid var(--line);}
 .nav{display:flex;justify-content:space-between;align-items:center;}
 .nav h1{font-size:20px;color:var(--brand);}
-.nav .links a{margin-left:10px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:#f2f4f8;}
+.nav .links a{
+  margin-left:10px;
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#f2f4f8;
+}
 .hero{display:grid;grid-template-columns:1fr .6fr;gap:18px;padding:36px 0;}
-.badge{display:inline-block;background:#e7f1ff;color:var(--brand);padding:6px 12px;border-radius:999px;}
+.badge{
+  display:inline-block;
+  background:#e7f1ff;
+  color:var(--brand);
+  padding:6px 12px;
+  border-radius:999px;
+}
 .title{font-size:32px;margin-top:10px;}
 .subtitle{color:var(--muted);}
 section{padding:36px 0;border-top:1px solid var(--line);}
 h2{color:var(--brand);}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:16px;}
-.grid{display:grid;gap:16px;}
-.grid-2{grid-template-columns:1fr 1fr;}
-@media(max-width:900px){.hero{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}}
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:18px;
+  margin-bottom:16px;
+}
 .avatar{
   width:110px;
   height:110px;
@@ -44,6 +64,9 @@ h2{color:var(--brand);}
   object-position:center top;
   border:2px solid var(--brand);
   margin-bottom:10px;
+}
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -66,11 +89,11 @@ h2{color:var(--brand);}
 <!-- HERO -->
 <section class="hero">
 <div>
-<span class="badge">VLSI Design • RTL • PD • Verification</span>
+<span class="badge">VLSI Design • RTL • PD • ASIC Design</span>
 <h2 class="title">M.Tech — VLSI Design | B.E — ECE</h2>
 <p class="subtitle">
 M.Tech VLSI Design student with hands-on experience in RTL development, ASIC synthesis, and physical design using commercial EDA tool chains.
-Proficient in end-to-end digital implementation flow including functional verification, static timing analysis, and physical optimization.
+Proficient in end-to-end digital implementation flow including static timing analysis and physical optimization.
 Seeking opportunities in Physical Design, ASIC implementation, and Digital IC design.
 </p>
 </div>
@@ -84,51 +107,19 @@ Seeking opportunities in Physical Design, ASIC implementation, and Digital IC de
 </div>
 </section>
 
-<!-- EDUCATION -->
-<section>
-<h2>Education</h2>
-<div class="grid grid-2">
-<div class="card">
-<strong>Vellore Institute of Technology, Chennai</strong>
-<p>M.Tech in VLSI Design (2024 – Present)</p>
-</div>
-<div class="card">
-<strong>Sri Sairam Engineering College, Chennai</strong>
-<p>B.E. in Electronics and Communication Engineering (2019 – 2023)</p>
-</div>
-</div>
-</section>
-
 <!-- TECHNICAL SKILLS -->
 <section>
 <h2>Technical Skills</h2>
 <div class="card">
 <strong>HDLs:</strong> Verilog, SystemVerilog, TCL<br><br>
-<strong>Programming:</strong> Perl, Python, C, Java, MySQL, Scripting<br><br>
-<strong>Tools:</strong> Cadence Virtuoso, Innovus, Intel Quartus, Mentor Graphics, ModelSim, Synopsys, Ubuntu, PSpice, MATLAB<br><br>
-<strong>Others:</strong> Object Oriented Programming, DRC/LVS, System-level Testing, Debugging, Automation
-</div>
-</section>
 
-<!-- PROFESSIONAL EXPERIENCE -->
-<section>
-<h2>Professional Experience</h2>
-<div class="card">
-<strong>Associate IT Consultant — ITC Infotech</strong><br>
-Jul 2023 – Jul 2024 | Bangalore, India
-<ul>
-<li>Server Administration, Microsoft Azure, Databases, Power BI, MATLAB Server, ServiceNow.</li>
-<li>Automation and scripting for data analysis and system administration.</li>
-</ul>
-</div>
+<strong>ASIC Flow:</strong> RTL Design, Functional Verification, Synthesis, Static Timing Analysis, Floorplanning, Placement, Clock Tree Synthesis, Routing<br><br>
 
-<div class="card">
-<strong>Cyber Security Intern — Cisco Networking Academy</strong><br>
-Apr 2021 – Jul 2021 | Remote
-<ul>
-<li>Experience in cybersecurity, IP networking, and network security protocols.</li>
-<li>Configured network topologies and verified secure connections using Cisco tools.</li>
-</ul>
+<strong>Tools:</strong> Synopsys VCS, Design Compiler, ICC2, Cadence Virtuoso, Innovus, Verilator, GTKWave, Yosys, ModelSim, Quartus<br><br>
+
+<strong>Programming:</strong> C, Python, Perl<br><br>
+
+<strong>Others:</strong> Timing Optimization, Power Analysis, DRC/LVS, Debugging
 </div>
 </section>
 
@@ -140,67 +131,52 @@ Apr 2021 – Jul 2021 | Remote
 <strong>Performance-Balanced Noise-Canceling Low Noise Amplifier — Dec 2025 – Present</strong>
 <p>
 Designing a noise-canceling CMOS LNA in SCL 180nm technology targeting ultra-wideband (3–10 GHz) performance.
-Achieved >19 dB forward gain (S21) while optimizing S11, S22 and Noise Figure (NF) in Cadence Virtuoso.
-Focused on bias stability and gain–bandwidth–power trade-offs.
+Achieved >19 dB forward gain (S21) across the target band while performing S-parameter analysis for input/output
+impedance matching (S11, S22) and noise figure (NF) optimization in Cadence Virtuoso.
+Focused on bias stability, transistor sizing, and gain–bandwidth–power trade-offs for balanced RF front-end performance.
 </p>
 </div>
 
 <div class="card">
-<strong>Implementation of Ultra-Lightweight RISC-V Architecture for Anomaly Detection in Healthcare Applications — Nov 2025</strong>
+<strong>Ultra-Lightweight RISC-V Architecture for Anomaly Detection — Nov 2025</strong>
 <p>
-Developing Day–Night RISC-V processor in ASIC flow using VCS, Design Compiler and ICC2.
-Technology: SAED32HVT @ ff0p95v125c.
+Designed and implemented a custom RISC-V processor in a full ASIC flow. Developed RTL modules in Verilog and
+performed functional verification using Synopsys VCS. Executed synthesis using Design Compiler to evaluate timing,
+area, and power trade-offs. Performed floorplanning, placement, clock tree synthesis, and routing using ICC2 with
+SAED32HVT technology libraries. Analyzed setup/hold timing and optimized slack during physical implementation.
 </p>
 </div>
 
 <div class="card">
-<strong>Design and Analysis of Low Power Hybrid Full Adder for Array Multiplier — Mar 2025</strong>
-<p>Hybrid FA-based 4-bit & 8-bit array multiplier using 90nm CMOS. Verified using DRC, LVS in Cadence Virtuoso.</p>
+<strong>Low Power Hybrid Full Adder for Array Multiplier — Mar 2025</strong>
+<p>
+Designed 4-bit and 8-bit array multipliers using hybrid full adder cells in 90nm CMOS.
+Completed schematic design, DRC/LVS verification, and functional validation in Cadence Virtuoso.
+</p>
 </div>
 
 <div class="card">
-<strong>Design and Analysis of 4-bit and 8-bit Kogge Stone Adder Using Memristor Technology — Nov 2024</strong>
-<p>Memristor-based Kogge-Stone adders simulated in Cadence Virtuoso for speed & power optimization.</p>
+<strong>Memristor-Based Kogge–Stone Adder — Nov 2024</strong>
+<p>
+Designed and simulated 4-bit and 8-bit memristor-based Kogge–Stone adders to improve speed and power efficiency over
+conventional CMOS implementations. Evaluated architectural performance in Cadence Virtuoso by analyzing critical
+path delay and power characteristics.
+</p>
 </div>
 
 <div class="card">
 <strong>Automated Mishap Detection and Prevention System in Vehicles — Feb 2022</strong>
-<p>Embedded accident detection system with real-time notification capability.</p>
+<p>
+Developed an embedded system for automated accident detection and alert notification,
+demonstrating real-time processing and system integration.
+</p>
 </div>
 
 <div class="card">
 <strong>Network Topology for College Network Using Cisco Packet Tracer — Jun 2021</strong>
-<p>Designed and implemented functional college network topology including configuration & testing.</p>
-</div>
-
-</section>
-
-<!-- PUBLICATIONS -->
-<section>
-<h2>Publications</h2>
-<div class="card">
-<strong>Automated Mishap Detection and Prevention System for Vehicles</strong><br>
-Springer, ICICV 2023<br>
-<a href="https://doi.org/10.1007/978-981-99-1767-9_4" target="_blank">DOI: 10.1007/978-981-99-1767-9_4</a>
-</div>
-</section>
-
-<!-- CERTIFICATIONS -->
-<section>
-<h2>Certifications</h2>
-
-<div class="card">
-<strong>System Design Through Verilog — NPTEL</strong><br>
-<a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/108/noc25-ee180/Course/NPTEL25EE180S63320362309227997.pdf" target="_blank">
-View Certificate
-</a>
-</div>
-
-<div class="card">
-<strong>VLSI Design Flow: RTL to GDS — NPTEL</strong><br>
-<a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/108/noc25-ee106/Course/NPTEL25EE106S55391255510588025.pdf" target="_blank">
-View Certificate
-</a>
+<p>
+Designed, configured, and tested a functional college network topology.
+</p>
 </div>
 
 </section>
@@ -208,7 +184,7 @@ View Certificate
 </main>
 
 <footer style="text-align:center;padding:20px;border-top:1px solid var(--line);">
-© <span id="year"></span> Rakesh K M — VLSI Design Portfolio
+© <span id="year"></span> Rakesh K M — VLSI Portfolio
 </footer>
 
 <script>
