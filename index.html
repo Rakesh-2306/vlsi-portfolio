@@ -5,14 +5,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Rakesh K M — VLSI Portfolio</title>
 <meta name="description" content="VLSI Design portfolio of Rakesh K M — RTL, PD and ASIC Design." />
-<link rel="icon" href="data:;base64,iVBORw0KGgo=" />
 
 <style>
 :root{
   --bg:#f8fafc;
   --card:#ffffff;
   --ink:#1e1e1e;
-  --muted:#5a5a5a;
+  --muted:#555;
   --line:#d0d7de;
   --brand:#005fbf;
 }
@@ -26,47 +25,68 @@ html,body{
 }
 a{color:var(--brand);text-decoration:none;}
 a:hover{text-decoration:underline;}
-.wrap{max-width:1080px;margin:0 auto;padding:24px;}
-header{position:sticky;top:0;background:#ffffffcc;border-bottom:1px solid var(--line);}
-.nav{display:flex;justify-content:space-between;align-items:center;}
-.nav h1{font-size:20px;color:var(--brand);}
+.wrap{max-width:1150px;margin:0 auto;padding:24px;}
+header{
+  position:sticky;
+  top:0;
+  background:#ffffffcc;
+  border-bottom:1px solid var(--line);
+  z-index:10;
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.nav h1{color:var(--brand);}
 .nav .links a{
-  margin-left:10px;
-  padding:8px 12px;
+  margin-left:12px;
+  padding:8px 14px;
   border:1px solid var(--line);
   border-radius:8px;
-  background:#f2f4f8;
+  background:#f3f6fb;
 }
-.hero{display:grid;grid-template-columns:1fr .6fr;gap:18px;padding:36px 0;}
+.hero{
+  display:grid;
+  grid-template-columns:1fr 0.6fr;
+  gap:30px;
+  padding:40px 0;
+}
 .badge{
-  display:inline-block;
   background:#e7f1ff;
   color:var(--brand);
-  padding:6px 12px;
+  padding:6px 14px;
   border-radius:999px;
+  display:inline-block;
 }
-.title{font-size:32px;margin-top:10px;}
+.title{font-size:32px;margin-top:12px;}
 .subtitle{color:var(--muted);}
-section{padding:36px 0;border-top:1px solid var(--line);}
-h2{color:var(--brand);}
+section{padding:40px 0;border-top:1px solid var(--line);}
+h2{color:var(--brand);margin-bottom:20px;}
 .card{
   background:var(--card);
   border:1px solid var(--line);
-  border-radius:10px;
-  padding:18px;
-  margin-bottom:16px;
+  border-radius:12px;
+  padding:20px;
+}
+.grid-2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:25px;
 }
 .avatar{
-  width:110px;
-  height:110px;
+  width:130px;
+  height:130px;
   border-radius:50%;
   object-fit:cover;
   object-position:center top;
   border:2px solid var(--brand);
-  margin-bottom:10px;
+  margin-bottom:12px;
 }
+ul{margin-top:10px;}
 @media(max-width:900px){
   .hero{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -107,27 +127,73 @@ Seeking opportunities in Physical Design, ASIC implementation, and Digital IC de
 </div>
 </section>
 
+<!-- EDUCATION -->
+<section>
+<h2>Education</h2>
+<div class="grid-2">
+<div class="card">
+<strong>Vellore Institute of Technology, Chennai</strong><br>
+M.Tech in VLSI Design (2024 – Present)
+</div>
+
+<div class="card">
+<strong>Sri Sairam Engineering College, Chennai</strong><br>
+B.E. in Electronics and Communication Engineering (2019 – 2023)
+</div>
+</div>
+</section>
+
+<!-- PROFESSIONAL EXPERIENCE -->
+<section>
+<h2>Professional Experience</h2>
+<div class="grid-2">
+
+<div class="card">
+<strong>Associate IT Consultant — ITC Infotech</strong><br>
+Jul 2023 – Jul 2024 | Bangalore, India
+<ul>
+<li>Server Administration, Microsoft Azure, Databases, Power BI, MATLAB Server, ServiceNow.</li>
+<li>Automation and scripting for data analysis and system administration.</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Cyber Security Intern — Cisco Networking Academy</strong><br>
+Apr 2021 – Jul 2021 | Remote
+<ul>
+<li>Experience in cybersecurity, IP networking, and network security protocols.</li>
+<li>Configured network topologies and verified secure connections using Cisco tools.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
 <!-- TECHNICAL SKILLS -->
 <section>
 <h2>Technical Skills</h2>
 <div class="card">
 <strong>HDLs:</strong> Verilog, SystemVerilog, TCL<br><br>
 
-<strong>ASIC Flow:</strong> RTL Design, Functional Verification, Synthesis, Static Timing Analysis, Floorplanning, Placement,
+<strong>ASIC Flow:</strong> RTL Design, Functional Verification, Synthesis,
+Static Timing Analysis, Floorplanning, Placement,
 Clock Tree Synthesis, Routing<br><br>
 
-<strong>Tools:</strong> Synopsys VCS, Design Compiler, ICC2, Cadence Virtuoso, Innovus, Verilator, GTKWave, Yosys, ModelSim,
+<strong>Tools:</strong> Synopsys VCS, Design Compiler, ICC2, Cadence
+Virtuoso, Innovus, Verilator, GTKWave, Yosys, ModelSim,
 Quartus<br><br>
 
 <strong>Programming:</strong> C, Python, Perl<br><br>
 
-<strong>Others:</strong> Timing Optimization, Power Analysis, DRC/LVS, Debugging
+<strong>Others:</strong> Timing Optimization, Power Analysis, DRC/LVS,
+Debugging
 </div>
 </section>
 
 <!-- PROJECTS -->
 <section>
 <h2>Projects</h2>
+<div class="grid-2">
 
 <div class="card">
 <strong>Performance-Balanced Noise-Canceling Low Noise Amplifier — Dec 2025 – Present</strong>
@@ -152,8 +218,8 @@ SAED32HVT technology libraries. Analyzed setup/hold timing and optimized slack d
 <div class="card">
 <strong>Low Power Hybrid Full Adder for Array Multiplier — Mar 2025</strong>
 <p>
-Designed 4-bit and 8-bit array multipliers using hybrid full adder cells in 90nm CMOS.
-Completed schematic design, DRC/LVS verification, and functional validation in Cadence Virtuoso.
+Designed 4-bit and 8-bit array multipliers using hybrid full adder cells in 90nm CMOS. Completed schematic design,
+DRC/LVS verification, and functional validation in Cadence Virtuoso.
 </p>
 </div>
 
@@ -169,8 +235,8 @@ path delay and power characteristics.
 <div class="card">
 <strong>Automated Mishap Detection and Prevention System in Vehicles — Feb 2022</strong>
 <p>
-Developed an embedded system for automated accident detection and alert notification,
-demonstrating real-time processing and system integration.
+Developed an embedded system for automated accident detection and alert notification, demonstrating real-time processing
+and system integration.
 </p>
 </div>
 
@@ -181,6 +247,7 @@ Designed, configured, and tested a functional college network topology.
 </p>
 </div>
 
+</div>
 </section>
 
 <!-- PUBLICATIONS -->
@@ -198,6 +265,7 @@ DOI: 10.1007/978-981-99-1767-9_4
 <!-- CERTIFICATIONS -->
 <section>
 <h2>Certifications</h2>
+<div class="grid-2">
 
 <div class="card">
 <strong>System Design Through Verilog — NPTEL</strong><br>
@@ -213,6 +281,7 @@ View Certificate
 </a>
 </div>
 
+</div>
 </section>
 
 </main>
