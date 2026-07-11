@@ -113,7 +113,7 @@ ul{margin-top:10px;}
 </span>
 <h2 class="title">M.Tech — VLSI Design | B.E — ECE</h2>
 <p class="subtitle">
-M.Tech VLSI Design graduate (2026, result awaited) specializing in Analog/Mixed-Signal IC design and layout, with hands-on experience in RF circuit design (LNA), layout techniques, and ASIC implementation flow. Skilled in Cadence Virtuoso and Synopsys tools (VCS, DC, ICC2) for end-to-end design. Actively seeking roles in Analog/Mixed-Signal IC Design and Layout, and open to Physical Design and Digital IC Implementation opportunities.
+M.Tech in VLSI Design (2026) graduate specializing in Analog/Mixed-Signal IC Design and Layout, with hands-on experience in RF circuit design (LNA), full-custom analog layout, and ASIC implementation flow. Proficient in Cadence Virtuoso Layout Suite and Synopsys tools (VCS, Design Compiler, ICC2) for end-to-end IC design. Actively seeking opportunities in Analog/Mixed-Signal IC Design & Layout, while also open to Physical Design and Digital IC Implementation roles.
 </p>
 </div>
 
@@ -172,23 +172,24 @@ Apr 2021 – Jul 2021 | Remote
 <section>
 <h2>Technical Skills</h2>
 <div class="card">
-<strong>HDLs:</strong> Verilog, SystemVerilog, TCL<br><br>
+<strong>HDLs & Scripting: </strong> Verilog, SystemVerilog, TCL<br><br>
 
-<strong>Analog / RF Design:</strong> Cadence Virtuoso, RF simulation, S-parameter analysis (S11, S12, S21, S22), Noise Figure(NF) analysis, Linearity analysis (IIP3, OIP3, IMD3,P1dB), Stability analysis (K-factor, μ-factor)<br><br>
+<strong>Analog / RF Design:</strong> Cadence Virtuoso Layout Suite, RF Circuit Simulation, S-Parameter Analysis (S11, S12, S21, S22), Noise Figure (NF) Analysis, Linearity Analysis (IIP3, OIP3, IMD3, P1dB), Stability Analysis (K-factor, μ-factor)<br><br>
+
+<strong>Analog Layout: </strong> Full-Custom Analog Layout, Device Matching (Common-Centroid, Interdigitation), Guard Rings & Shielding, DRC/LVS, Parasitic Extraction (PEX)<br><br>
 
 <strong>Digital Design:</strong> RTL Design, FSM Design, Funcational Verification<br><br>
 
-<strong>ASIC Physical Design:</strong> Synthesis, Static Timing Analysis(STA), Floorplanning, Placement,
-Clock Tree Synthesis, Routing<br><br>
+<strong>ASIC Design Flow:</strong> Synthesis, Static Timing Analysis (STA), Floorplanning, Placement, Clock Tree Synthesis (CTS), Routing<br><br>
 
-<strong>EDA Tools:</strong> Synopsys VCS, Design Compiler, ICC2, Cadence
-Virtuoso, Innovus, Verilator, GTKWave, Yosys, ModelSim,
-Quartus<br><br>
+<strong>EDA Tools:</strong> 
+
+<strong>Commercial: </strong> Cadence Virtuoso Layout Suite, Calibre (DRC/LVS/PEX), Assura (DRC/LVS), Synopsys ICC2, Design Compiler (DC), VCS, Cadence Innovus, ModelSim, Intel Quartus Prime<br><br>
+<strong>Open Source: </strong> Yosys, Verilator, GTKWave <br><br>
 
 <strong>Programming:</strong> C, Python, Perl<br><br>
 
-<strong>Others:</strong> Timing Optimization, Power Analysis, DRC/LVS,
-Debugging
+<strong>Others:</strong> Timing Optimization, Power Analysis, Debugging
 </div>
 </section>
 
@@ -198,58 +199,76 @@ Debugging
 <div class="grid-2">
 
 <div class="card">
-<strong>Performance-Balanced Noise-Canceling Low Noise Amplifier — Apr 2026 </strong>
+<strong>Performance-Balanced Noise-Canceling Low Noise Amplifier | Apr 2026</strong>
 <p>
-Designed and analyzed CG–CS, cascode, and folded-cascode LNAs in SCL 180 nm using Cadence Virtuoso; optimized
-folded cascode achieving 16.26 dB gain, 11mdB NF, (S11, S22 < −10 dB), and P1dB = 2.87dBm with unconditional
-stability (K > 1, μ > 1). Implemented layout with device matching, common-centroid techniques, and parasitic-aware
-design; completed DRC. Designed custom square spiral inductor due to PDK limitations. Proceeding toward LVS,
-post-layout RC parasitic extraction, and tapeout once inductor PDK becomes available.
+Designed, simulated, and implemented a Folded Cascode LNA in SCL 180 nm CMOS using Cadence Virtuoso, optimizing gain, noise figure, impedance matching, and stability.
 </p>
+<ul>
+  <li>Achieved 16.26 dB gain, 1.1 dB NF, S11 = −18 dB, S22 = −10 dB, and P1dB = 2.87 dBm with K > 1 and μ > 1.</li>
+  <li>Implemented full-custom analog layout using common-centroid, symmetry, guard rings, and parasitic-aware design.</li>
+  <li>Completed DRC verification and designed a custom square spiral inductor; LVS and PEX are pending due to PDK limitations.</li>
+</ul>
 </div>
 
 <div class="card">
-<strong>Ultra-Lightweight RISC-V Architecture for Anomaly Detection — Nov 2025</strong>
+<strong>Ultra-Lightweight RISC-V Architecture for Anomaly Detection | Nov 2025</strong>
 <p>
-Designed and implemented a custom RISC-V processor in a full ASIC flow. Developed RTL modules in Verilog and
-performed functional verification using Synopsys VCS. Executed synthesis using Design Compiler to evaluate timing,
-area, and power trade-offs. Performed floorplanning, placement, clock tree synthesis, and routing using ICC2 with
-SAED32HVT technology libraries. Analyzed setup/hold timing and optimized slack during physical implementation.
+Designed and implemented a custom 3-stage RISC-V processor following the complete ASIC design flow using Synopsys EDA tools.
 </p>
+<ul>
+  <li>Developed RTL in Verilog and performed functional verification using Synopsys VCS.</li>
+  <li>Executed synthesis using Design Compiler and physical implementation using ICC2.</li>
+  <li>Performed timing analysis and optimized setup/hold slack.</li>
+</ul>
 </div>
 
 <div class="card">
-<strong>Low Power Hybrid Full Adder for Array Multiplier — Mar 2025</strong>
+<strong>Low Power Hybrid Full Adder for Array Multiplier | Mar 2025</strong>
 <p>
-Designed 4-bit and 8-bit array multipliers using hybrid full adder cells in 90nm CMOS. Completed schematic design,
-DRC/LVS verification, and functional validation in Cadence Virtuoso.
+Designed a low-power hybrid full adder and implemented array multipliers in Cadence Virtuoso using GPDK 90 nm CMOS technology.
 </p>
+<ul>
+  <li>Implemented 4-bit and 8-bit array multipliers.</li>
+  <li>Completed schematic design and DRC/LVS verification.</li>
+  <li>Validated functionality through simulation.</li>
+</ul>
 </div>
 
 <div class="card">
-<strong>Memristor-Based Kogge–Stone Adder — Nov 2024</strong>
+<strong>Memristor-Based Kogge–Stone Adder | Nov 2024</strong>
 <p>
-Designed and simulated 4-bit and 8-bit memristor-based Kogge–Stone adders to improve speed and power efficiency over
-conventional CMOS implementations. Evaluated architectural performance in Cadence Virtuoso by analyzing critical
-path delay and power characteristics.
+Designed and simulated Memristor-Based Kogge–Stone Adders to improve speed and power efficiency over CMOS-based implementations.
 </p>
+<ul>
+  <li>Implemented 4-bit and 8-bit adder architectures.</li>
+  <li>Analyzed delay and power characteristics.</li>
+  <li>Evaluated performance using Cadence Virtuoso.</li>
+</ul>
 </div>
 
 <div class="card">
-<strong>Automated Mishap Detection and Prevention System in Vehicles — Feb 2022</strong>
+<strong>Automated Mishap Detection and Prevention System in Vehicles | Feb 2022</strong>
 <p>
-Developed an embedded system for automated accident detection and alert notification, demonstrating real-time processing
-and system integration.
+Developed an embedded system for automatic accident detection and emergency alert notification.
 </p>
+<ul>
+  <li>Integrated sensors for real-time monitoring.</li>
+  <li>Implemented automatic emergency notification.</li>
+  <li>Demonstrated end-to-end system integration.</li>
+</ul>
 </div>
 
 <div class="card">
-<strong>Network Topology for College Network Using Cisco Packet Tracer — Jun 2021</strong>
+<strong>Network Topology for College Network Using Cisco Packet Tracer | Jun 2021</strong>
 <p>
-Designed, configured, and tested a functional college network topology.
+Designed and configured a scalable college network using Cisco Packet Tracer.
 </p>
+<ul>
+  <li>Configured routers, switches, VLANs, and IP addressing.</li>
+  <li>Validated end-to-end network connectivity.</li>
+  <li>Tested network communication across devices.</li>
+</ul>
 </div>
-
 </div>
 </section>
 
