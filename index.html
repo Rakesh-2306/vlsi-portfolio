@@ -4,9 +4,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Rakesh K M — VLSI Portfolio</title>
-<meta name="description" content="VLSI Design portfolio of Rakesh K M — RTL, PD and ASIC Design." />
+
+<meta name="description"
+content="Portfolio of Rakesh K M | Analog Layout | AMS Layout | Memory Layout | ASIC Physical Design" />
 
 <style>
+
 :root{
   --bg:#f8fafc;
   --card:#ffffff;
@@ -15,306 +18,881 @@
   --line:#d0d7de;
   --brand:#005fbf;
 }
-*{box-sizing:border-box;}
+
+*{
+box-sizing:border-box;
+}
+
 html,body{
-  margin:0;
-  padding:0;
-  background:var(--bg);
-  color:var(--ink);
-  font:16px/1.6 system-ui;
+margin:0;
+padding:0;
+background:var(--bg);
+color:var(--ink);
+font:16px/1.6 system-ui;
 }
-a{color:var(--brand);text-decoration:none;}
-a:hover{text-decoration:underline;}
-.wrap{max-width:1150px;margin:0 auto;padding:24px;}
+
+a{
+color:var(--brand);
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.wrap{
+max-width:1150px;
+margin:auto;
+padding:24px;
+}
+
 header{
-  position:sticky;
-  top:0;
-  background:#ffffffcc;
-  border-bottom:1px solid var(--line);
-  z-index:10;
+position:sticky;
+top:0;
+background:#ffffffcc;
+border-bottom:1px solid var(--line);
+z-index:10;
+backdrop-filter:blur(8px);
 }
+
 .nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
-.nav h1{color:var(--brand);}
+
+.nav h1{
+color:var(--brand);
+}
+
 .nav .links a{
-  margin-left:12px;
-  padding:8px 14px;
-  border:1px solid var(--line);
-  border-radius:8px;
-  background:#f3f6fb;
+margin-left:12px;
+padding:8px 14px;
+border:1px solid var(--line);
+border-radius:8px;
+background:#f3f6fb;
 }
+
 .hero{
-  display:grid;
-  grid-template-columns:1fr 0.6fr;
-  gap:30px;
-  padding:40px 0;
+display:grid;
+grid-template-columns:1fr 0.6fr;
+gap:30px;
+padding:45px 0;
 }
+
 .badge{
-  background:#e7f1ff;
-  color:var(--brand);
-  padding:6px 14px;
-  border-radius:999px;
-  display:inline-block;
+background:#e7f1ff;
+color:var(--brand);
+padding:8px 15px;
+border-radius:999px;
+display:inline-block;
+font-weight:600;
 }
-.title{font-size:32px;margin-top:12px;}
-.subtitle{color:var(--muted);}
-section{padding:40px 0;border-top:1px solid var(--line);}
-h2{color:var(--brand);margin-bottom:20px;}
+
+.title{
+font-size:34px;
+margin-top:15px;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:var(--muted);
+text-align:justify;
+}
+
+section{
+padding:40px 0;
+border-top:1px solid var(--line);
+}
+
+h2{
+color:var(--brand);
+margin-bottom:20px;
+}
+
 .card{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:12px;
-  padding:20px;
+background:var(--card);
+border:1px solid var(--line);
+border-radius:12px;
+padding:20px;
 }
+
 .grid-2{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:25px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
 }
+
 .avatar{
-  width:130px;
-  height:130px;
-  border-radius:50%;
-  object-fit:cover;
-  object-position:center top;
-  border:2px solid var(--brand);
-  margin-bottom:12px;
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+object-position:center top;
+border:3px solid var(--brand);
+margin-bottom:15px;
 }
-ul{margin-top:10px;}
+
+ul{
+margin-top:10px;
+}
+
 @media(max-width:900px){
-  .hero{grid-template-columns:1fr}
-  .grid-2{grid-template-columns:1fr}
+
+.hero{
+grid-template-columns:1fr;
 }
+
+.grid-2{
+grid-template-columns:1fr;
+}
+
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <div class="wrap nav">
+
 <h1>[RK] Rakesh K M</h1>
+
 <div class="links">
-<a href="https://github.com/Rakesh-2306" target="_blank">GitHub</a>
-<a href="https://www.linkedin.com/in/kmrakesh" target="_blank">LinkedIn</a>
-<a href="assets/Rakesh_VLSI_Resume.pdf" download>Download Resume</a>
+
+<a href="https://github.com/Rakesh-2306" target="_blank">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/kmrakesh" target="_blank">
+LinkedIn
+</a>
+
+<a href="assets/Rakesh_VLSI_Resume.pdf" download>
+Download Resume
+</a>
+
 </div>
+
 </div>
+
 </header>
 
 <main class="wrap">
 
 <!-- HERO -->
+
 <section class="hero">
+
 <div>
-<span class="badge">Analog/Mixed-Signal IC & Layout Design Engineer | RF LNA Design (P1dB, IIP3, NF) | Digital VLSI & Physical Design | Cadence Virtuoso | Synopsys (VCS, DC, ICC2) | Immediate Joiner
+
+<span class="badge">
+
+Analog / Mixed-Signal (AMS) Layout • Analog Layout • Memory Layout • ASIC Physical Design
+
 </span>
-<h2 class="title">M.Tech — VLSI Design | B.E — ECE</h2>
+
+<h2 class="title">
+
+M.Tech Graduate — VLSI Design
+
+</h2>
+
 <p class="subtitle">
-M.Tech in VLSI Design (2026) graduate specializing in Analog/Mixed-Signal IC Design and Layout, with hands-on experience in RF circuit design (LNA), full-custom analog layout, and ASIC implementation flow. Proficient in Cadence Virtuoso Layout Suite and Synopsys tools (VCS, Design Compiler, ICC2) for end-to-end IC design. Actively seeking opportunities in Analog/Mixed-Signal IC Design & Layout, while also open to Physical Design and Digital IC Implementation roles.
+
+I am an <strong>M.Tech graduate in VLSI Design</strong> from
+<strong>Vellore Institute of Technology (VIT), Chennai</strong>,
+with a strong foundation in
+<strong>Analog/Mixed-Signal IC Design, Full-Custom Analog Layout,
+Memory Layout, RTL Design, and ASIC Physical Design.</strong>
+
+<br><br>
+
+My experience includes
+Analog/RF circuit design,
+full-custom analog layout,
+physical verification (DRC/LVS),
+RC parasitic extraction (PEX),
+RTL development,
+logic synthesis,
+floorplanning,
+placement,
+Clock Tree Synthesis (CTS),
+routing,
+and Static Timing Analysis (STA)
+using industry-standard EDA tools.
+
+<br><br>
+
+I have worked on multiple CMOS technologies including
+<strong>GlobalFoundries 40nm,
+TSMC 65nm (Academic),
+SAED 32nm,
+SCL 180nm,
+GPDK 180nm,
+GPDK 90nm,
+and GPDK 45nm</strong>.
+
+<br><br>
+
+Currently seeking opportunities as an
+<strong>Analog Layout Engineer,
+AMS Layout Engineer,
+Memory Layout Engineer</strong>,
+with
+<strong>ASIC Physical Design</strong>
+as a secondary area of interest.
+
 </p>
+
 </div>
 
 <div class="card" style="text-align:center;">
-<img class="avatar" src="images/rakesh.JPG" alt="Rakesh K M">
-<p><strong>Contact</strong></p>
-<p>kmrakesh23@gmail.com</p>
-<p>+91 9025253871</p>
-<p>Chennai, India</p>
+
+<img
+class="avatar"
+src="images/rakesh.JPG"
+alt="Rakesh K M">
+
+<h3>Contact</h3>
+
+<p>
+
+📧 kmrakesh23@gmail.com
+
+</p>
+
+<p>
+
+📱 +91 XXXXX XXXXX
+
+</p>
+
+<p>
+
+📍 Chennai, Tamil Nadu, India
+
+</p>
+
+<p>
+
+🚀 Immediate Joiner
+
+</p>
+
 </div>
+
 </section>
 
 <!-- EDUCATION -->
+
 <section>
+
 <h2>Education</h2>
+
 <div class="grid-2">
+
 <div class="card">
-<strong>Vellore Institute of Technology, Chennai</strong><br>
-M.Tech in VLSI Design (2024 – 2026)
+
+<strong>
+
+Vellore Institute of Technology (VIT), Chennai
+
+</strong>
+
+<br><br>
+
+Master of Technology (M.Tech)
+
+<br>
+
+VLSI Design
+
+<br>
+
+2024 – 2026
+
 </div>
 
 <div class="card">
-<strong>Sri Sairam Engineering College, Chennai</strong><br>
-B.E. in Electronics and Communication Engineering (2019 – 2023)
+
+<strong>
+
+Sri Sairam Engineering College, Chennai
+
+</strong>
+
+<br><br>
+
+Bachelor of Engineering (B.E.)
+
+<br>
+
+Electronics and Communication Engineering
+
+<br>
+
+2019 – 2023
+
 </div>
+
 </div>
+
 </section>
 
-<!-- PROFESSIONAL EXPERIENCE -->
+<!-- ========================================================= -->
+<!-- PROFESSIONAL TRAINING -->
+<!-- ========================================================= -->
+
 <section>
-<h2>Professional Experience</h2>
+
+<h2>Professional Training</h2>
+
+<div class="card">
+
+<h3>Analog Layout Design Training</h3>
+
+<p>
+<strong>Training Provider:</strong> Semionics<br>
+<strong>Technology:</strong> GlobalFoundries (GF40) CMOS
+</p>
+
+<p>
+Completed hands-on training in Full-Custom Analog Layout with emphasis on layout optimization,
+matching techniques, physical verification, and parasitic-aware design methodologies for
+analog and mixed-signal integrated circuits.
+</p>
+
 <div class="grid-2">
 
-<div class="card">
-<strong>Associate IT Consultant — ITC Infotech</strong><br>
-Jul 2023 – Jul 2024 | Bangalore, India
+<div>
+
 <ul>
-<li>Server Administration, Microsoft Azure, Databases, Power BI, MATLAB Server, ServiceNow.</li>
-<li>Automation and scripting for data analysis and system administration.</li>
+
+<li>Full-Custom Analog Layout</li>
+
+<li>Differential Pair Layout</li>
+
+<li>Current Mirror Layout</li>
+
+<li>Device Matching</li>
+
+<li>Common-Centroid Layout</li>
+
+<li>Interdigitation</li>
+
+<li>Dummy Devices</li>
+
 </ul>
+
 </div>
 
-<div class="card">
-<strong>Cyber Security Intern — Cisco Networking Academy</strong><br>
-Apr 2021 – Jul 2021 | Remote
+<div>
+
 <ul>
-<li>Experience in cybersecurity, IP networking, and network security protocols.</li>
-<li>Configured network topologies and verified secure connections using Cisco tools.</li>
+
+<li>Guard Rings & Shielding</li>
+
+<li>Symmetry & Layout Optimization</li>
+
+<li>Manual Routing</li>
+
+<li>DRC & LVS Verification</li>
+
+<li>RC Parasitic Extraction (PEX)</li>
+
+<li>Parasitic-Aware Layout Design</li>
+
+<li>Analog Layout Best Practices</li>
+
 </ul>
+
 </div>
 
 </div>
+
+</div>
+
 </section>
 
+<!-- ========================================================= -->
 <!-- TECHNICAL SKILLS -->
+<!-- ========================================================= -->
+
 <section>
+
 <h2>Technical Skills</h2>
+
+<div class="grid-2">
+
 <div class="card">
-<strong>HDLs & Scripting: </strong> Verilog, SystemVerilog, TCL<br><br>
 
-<strong>Analog / RF Design:</strong> Cadence Virtuoso Layout Suite, RF Circuit Simulation, S-Parameter Analysis (S11, S12, S21, S22), Noise Figure (NF) Analysis, Linearity Analysis (IIP3, OIP3, IMD3, P1dB), Stability Analysis (K-factor, μ-factor)<br><br>
+<strong>Analog Layout</strong>
 
-<strong>Analog Layout: </strong> Full-Custom Analog Layout, Device Matching (Common-Centroid, Interdigitation), Guard Rings & Shielding, DRC/LVS, Parasitic Extraction (PEX)<br><br>
+<ul>
 
-<strong>Digital Design:</strong> RTL Design, FSM Design, Funcational Verification<br><br>
+<li>Full-Custom Analog Layout</li>
+<li>Device Matching</li>
+<li>Common-Centroid</li>
+<li>Interdigitation</li>
+<li>Dummy Devices</li>
+<li>Symmetry</li>
+<li>Guard Rings</li>
+<li>Shielding</li>
+<li>Fingering</li>
+<li>Via Arrays</li>
+<li>Manual Routing</li>
+<li>Layout Optimization</li>
 
-<strong>ASIC Design Flow:</strong> Synthesis, Static Timing Analysis (STA), Floorplanning, Placement, Clock Tree Synthesis (CTS), Routing<br><br>
+</ul>
 
-<strong>EDA Tools:</strong> 
-
-<strong>Commercial: </strong> Cadence Virtuoso Layout Suite, Calibre (DRC/LVS/PEX), Assura (DRC/LVS), Synopsys ICC2, Design Compiler (DC), VCS, Cadence Innovus, ModelSim, Intel Quartus Prime<br><br>
-<strong>Open Source: </strong> Yosys, Verilator, GTKWave <br><br>
-
-<strong>Programming:</strong> C, Python, Perl<br><br>
-
-<strong>Others:</strong> Timing Optimization, Power Analysis, Debugging
 </div>
+
+<div class="card">
+
+<strong>Physical Verification</strong>
+
+<ul>
+
+<li>Calibre DRC/LVS</li>
+<li>Assura DRC/LVS</li>
+<li>RC Parasitic Extraction (PEX)</li>
+<li>Post-Layout Verification</li>
+
+</ul>
+
+<br>
+
+<strong>Analog Building Blocks</strong>
+
+<ul>
+
+<li>Differential Pair</li>
+<li>Current Mirror</li>
+<li>Comparator</li>
+<li>Bandgap Reference Fundamentals</li>
+<li>LDO Fundamentals</li>
+<li>ADC/DAC Fundamentals</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<strong>Analog / RF Design</strong>
+
+<ul>
+
+<li>Analog Circuit Design</li>
+<li>RF Circuit Simulation</li>
+<li>S-Parameters (S11, S12, S21, S22)</li>
+<li>Noise Figure (NF)</li>
+<li>Linearity (IIP3, OIP3, IMD3, P1dB)</li>
+<li>Stability (K-Factor, μ-Factor)</li>
+
+</ul>
+
+<br>
+
+<strong>ASIC Physical Design (Secondary)</strong>
+
+<ul>
+
+<li>RTL Design</li>
+<li>Functional Verification</li>
+<li>Logic Synthesis</li>
+<li>Floorplanning</li>
+<li>Placement</li>
+<li>Clock Tree Synthesis (CTS)</li>
+<li>Routing</li>
+<li>Static Timing Analysis (STA)</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<strong>EDA Tools</strong>
+
+<ul>
+
+<li>Cadence Virtuoso</li>
+<li>Virtuoso Layout Suite</li>
+<li>Calibre</li>
+<li>Assura</li>
+<li>Synopsys VCS</li>
+<li>Design Compiler</li>
+<li>ICC2</li>
+<li>Cadence Innovus</li>
+<li>ModelSim</li>
+
+</ul>
+
+<br>
+
+<strong>Process Technologies</strong>
+
+<ul>
+
+<li>GlobalFoundries 40nm</li>
+<li>TSMC 65nm (Academic)</li>
+<li>SAED 32nm</li>
+<li>SCL 180nm</li>
+<li>GPDK 180nm</li>
+<li>GPDK 90nm</li>
+<li>GPDK 45nm</li>
+
+</ul>
+
+<br>
+
+<strong>Programming</strong>
+
+<ul>
+
+<li>Verilog</li>
+<li>SystemVerilog</li>
+<li>TCL</li>
+<li>C</li>
+<li>Python</li>
+<li>Perl</li>
+
+</ul>
+
+</div>
+
+</div>
+
 </section>
 
+<!-- ========================================================= -->
 <!-- PROJECTS -->
+<!-- ========================================================= -->
+
 <section>
-<h2>Projects</h2>
+
+<h2>Featured Projects</h2>
+
 <div class="grid-2">
 
 <div class="card">
-<strong>Performance-Balanced Noise-Canceling Low Noise Amplifier | Apr 2026</strong>
+
+<strong>Performance-Balanced Noise-Canceling Low Noise Amplifier</strong>
+
 <p>
-Designed, simulated, and implemented a Folded Cascode LNA in SCL 180 nm CMOS using Cadence Virtuoso, optimizing gain, noise figure, impedance matching, and stability.
+<strong>Technology:</strong> SCL 180nm CMOS
 </p>
+
 <ul>
-  <li>Achieved 16.26 dB gain, 1.1 dB NF, S11 = −18 dB, S22 = −10 dB, and P1dB = 2.87 dBm with K > 1 and μ > 1.</li>
-  <li>Implemented full-custom analog layout using common-centroid, symmetry, guard rings, and parasitic-aware design.</li>
-  <li>Completed DRC verification and designed a custom square spiral inductor; LVS and PEX are pending due to PDK limitations.</li>
+
+<li>Designed and analyzed CG-CS, Cascode, and Folded-Cascode LNA architectures using Cadence Virtuoso.</li>
+
+<li>Performed RF analysis including Gain, S-Parameters, Noise Figure, Linearity (IIP3, OIP3, IMD3, P1dB), and Stability.</li>
+
+<li>Implemented full-custom analog layout using Common-Centroid, Device Matching, Guard Rings, Shielding, and Symmetry.</li>
+
+<li>Performed DRC/LVS verification and RC Parasitic Extraction (PEX).</li>
+
+<li>Designed a custom square spiral inductor for RF layout implementation.</li>
+
 </ul>
+
 </div>
 
 <div class="card">
-<strong>Ultra-Lightweight RISC-V Architecture for Anomaly Detection | Nov 2025</strong>
+
+<strong>Ultra-Lightweight RISC-V Architecture for Anomaly Detection</strong>
+
 <p>
-Designed and implemented a custom 3-stage RISC-V processor following the complete ASIC design flow using Synopsys EDA tools.
+<strong>Technology:</strong> SAED 32nm
 </p>
+
 <ul>
-  <li>Developed RTL in Verilog and performed functional verification using Synopsys VCS.</li>
-  <li>Executed synthesis using Design Compiler and physical implementation using ICC2.</li>
-  <li>Performed timing analysis and optimized setup/hold slack.</li>
+
+<li>Designed a custom 3-stage RISC-V processor using Verilog/SystemVerilog.</li>
+
+<li>Performed RTL verification using Synopsys VCS.</li>
+
+<li>Executed synthesis using Synopsys Design Compiler.</li>
+
+<li>Performed Floorplanning, Placement, CTS, Routing, and Static Timing Analysis using Synopsys ICC2.</li>
+
+<li>Optimized timing and power across the RTL-to-GDSII implementation flow.</li>
+
 </ul>
+
 </div>
 
 <div class="card">
-<strong>Low Power Hybrid Full Adder for Array Multiplier | Mar 2025</strong>
+
+<strong>Low Power Hybrid Full Adder for Array Multiplier</strong>
+
 <p>
-Designed a low-power hybrid full adder and implemented array multipliers in Cadence Virtuoso using GPDK 90 nm CMOS technology.
+<strong>Technology:</strong> GPDK 90nm CMOS
 </p>
+
 <ul>
-  <li>Implemented 4-bit and 8-bit array multipliers.</li>
-  <li>Completed schematic design and DRC/LVS verification.</li>
-  <li>Validated functionality through simulation.</li>
+
+<li>Designed 4-bit and 8-bit Hybrid Full Adder based Array Multipliers.</li>
+
+<li>Implemented schematic and full-custom layout using Cadence Virtuoso.</li>
+
+<li>Performed DRC, LVS, and RC Parasitic Extraction (PEX).</li>
+
+<li>Validated functionality using post-layout simulation.</li>
+
 </ul>
+
 </div>
 
 <div class="card">
-<strong>Memristor-Based Kogge–Stone Adder | Nov 2024</strong>
+
+<strong>Memristor-Based Kogge-Stone Adder</strong>
+
 <p>
-Designed and simulated Memristor-Based Kogge–Stone Adders to improve speed and power efficiency over CMOS-based implementations.
+<strong>Technology:</strong> Cadence Virtuoso
 </p>
+
 <ul>
-  <li>Implemented 4-bit and 8-bit adder architectures.</li>
-  <li>Analyzed delay and power characteristics.</li>
-  <li>Evaluated performance using Cadence Virtuoso.</li>
+
+<li>Designed high-speed 4-bit and 8-bit Kogge-Stone Adders using Memristor-CMOS logic.</li>
+
+<li>Compared delay, power consumption, and area with conventional CMOS implementations.</li>
+
+<li>Performed schematic simulation and performance analysis.</li>
+
 </ul>
+
 </div>
 
-<div class="card">
-<strong>Automated Mishap Detection and Prevention System in Vehicles | Feb 2022</strong>
-<p>
-Developed an embedded system for automatic accident detection and emergency alert notification.
-</p>
-<ul>
-  <li>Integrated sensors for real-time monitoring.</li>
-  <li>Implemented automatic emergency notification.</li>
-  <li>Demonstrated end-to-end system integration.</li>
-</ul>
 </div>
 
-<div class="card">
-<strong>Network Topology for College Network Using Cisco Packet Tracer | Jun 2021</strong>
-<p>
-Designed and configured a scalable college network using Cisco Packet Tracer.
-</p>
-<ul>
-  <li>Configured routers, switches, VLANs, and IP addressing.</li>
-  <li>Validated end-to-end network connectivity.</li>
-  <li>Tested network communication across devices.</li>
-</ul>
-</div>
-</div>
 </section>
 
+<!-- ========================================================= -->
 <!-- PUBLICATIONS -->
+<!-- ========================================================= -->
+
 <section>
+
 <h2>Publications</h2>
+
 <div class="card">
-<strong>Automated Mishap Detection and Prevention System for Vehicles</strong><br>
-Springer, ICICV 2023<br>
+
+<strong>
+Automated Mishap Detection and Prevention System for Vehicles
+</strong>
+
+<br><br>
+
+Published in
+
+<strong>
+Springer – International Conference on Intelligent Computing and Vehicular Technology (ICICV 2023)
+</strong>
+
+<br><br>
+
 <a href="https://doi.org/10.1007/978-981-99-1767-9_4" target="_blank">
-DOI: 10.1007/978-981-99-1767-9_4
+
+View Publication (DOI)
+
 </a>
+
 </div>
+
 </section>
 
+<!-- ========================================================= -->
 <!-- CERTIFICATIONS -->
+<!-- ========================================================= -->
+
 <section>
+
 <h2>Certifications</h2>
+
 <div class="grid-2">
 
 <div class="card">
-<strong>System Design Through Verilog — NPTEL</strong><br>
+
+<h3>NPTEL</h3>
+
+<strong>System Design Through Verilog</strong>
+
+<br><br>
+
 <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/108/noc25-ee180/Course/NPTEL25EE180S63320362309227997.pdf" target="_blank">
+
 View Certificate
+
 </a>
+
 </div>
 
 <div class="card">
-<strong>VLSI Design Flow: RTL to GDS — NPTEL</strong><br>
+
+<h3>NPTEL</h3>
+
+<strong>VLSI Design Flow: RTL to GDS</strong>
+
+<br><br>
+
 <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/108/noc25-ee106/Course/NPTEL25EE106S55391255510588025.pdf" target="_blank">
+
 View Certificate
+
 </a>
+
 </div>
 
 </div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- CONTACT -->
+<!-- ========================================================= -->
+
+<section>
+
+<h2>Let's Connect</h2>
+
+<div class="grid-2">
+
+<div class="card">
+
+<h3>Contact Information</h3>
+
+<p>
+
+📧 <strong>Email</strong><br>
+
+<a href="mailto:kmrakesh23@gmail.com">
+kmrakesh23@gmail.com
+</a>
+
+</p>
+
+<p>
+
+💼 <strong>LinkedIn</strong><br>
+
+<a href="https://www.linkedin.com/in/kmrakesh" target="_blank">
+linkedin.com/in/kmrakesh
+</a>
+
+</p>
+
+<p>
+
+💻 <strong>GitHub</strong><br>
+
+<a href="https://github.com/Rakesh-2306" target="_blank">
+github.com/Rakesh-2306
+</a>
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Career Objective</h3>
+
+<p>
+
+I am actively seeking opportunities as an
+
+<strong>
+
+Analog Layout Engineer,
+Analog/Mixed-Signal (AMS) Layout Engineer,
+Custom IC Layout Engineer,
+or Memory Layout Engineer
+
+</strong>
+
+with
+
+<strong>
+
+ASIC Physical Design
+
+</strong>
+
+as a secondary area of interest.
+
+</p>
+
+<p>
+
+I am passionate about developing reliable,
+high-performance,
+and energy-efficient semiconductor solutions
+while continuously expanding my expertise
+in analog layout,
+physical verification,
+and VLSI implementation.
+
+</p>
+
+<p>
+
+<strong>
+
+🚀 Immediate Joiner
+
+</strong>
+
+</p>
+
+</div>
+
+</div>
+
 </section>
 
 </main>
 
-<footer style="text-align:center;padding:20px;border-top:1px solid var(--line);">
-© <span id="year"></span> Rakesh K M — VLSI Portfolio
+<footer
+style="text-align:center;padding:25px;border-top:1px solid var(--line);">
+
+<p>
+
+<strong>
+
+Rakesh K M
+
+</strong>
+
+</p>
+
+<p>
+
+Analog / Mixed-Signal Layout • Analog Layout • Memory Layout • ASIC Physical Design
+
+</p>
+
+<p>
+
+© <span id="year"></span> Rakesh K M • All Rights Reserved
+
+</p>
+
 </footer>
 
 <script>
-document.getElementById('year').textContent = new Date().getFullYear();
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
 </script>
 
 </body>
+
 </html>
